@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ensamblaje de CPU</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            background:#f4f4f4;
+        }
+
+        header{
+            background:#0f172a;
+            color:white;
+            text-align:center;
+            padding:30px;
+        }
+
+        header h1{
+            margin-bottom:10px;
+        }
+
+        .contenedor{
+            width:90%;
+            margin:30px auto;
+        }
+
+        .pasos{
+            display:grid;
+            grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+            gap:25px;
+        }
+
+        .card{
+            background:white;
+            border-radius:12px;
+            overflow:hidden;
+            box-shadow:0 4px 10px rgba(0,0,0,0.2);
+            transition:0.3s;
+        }
+
+        .card:hover{
+            transform:scale(1.03);
+        }
+
+        .card img{
+            width:100%;
+            height:300px;
+            object-fit:cover;
+        }
+
+        .contenido{
+            padding:18px;
+        }
+
+        .contenido h2{
+            color:#0f172a;
+            margin-bottom:10px;
+        }
+
+        .contenido p{
+            color:#555;
+            line-height:1.5;
+        }
+
+        footer{
+            background:#0f172a;
+            color:white;
+            text-align:center;
+            padding:15px;
+            margin-top:30px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Cisco - Ensamblaje de CPU</h1>
+        <p>Proceso paso a paso del armado de CPU</p>
+    </header>
+
+    <div class="contenedor">
+
+        <div class="pasos">
+
+            <div class="card">
+                <img src="1.png" alt="Paso 1">
+                
+                <div class="contenido">
+                    <h2>Paso 1</h2>
+                    <p>
+                        Colocación de fuente de poder, rotar el componente hasta que coincida con orientación de los cables
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="2.png" alt="Paso 2">
+                
+                <div class="contenido">
+                    <h2>Paso 2</h2>
+                    <p>
+                        Asegurar la fuente colocando tornillos para evitar que quede mal
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="3.png" alt="Paso 3">
+                
+                <div class="contenido">
+                    <h2>Paso 3</h2>
+                    <p>
+                    Insertar procesador asegurandose que esté alineado, bajar palanca de sujección
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="4.png" alt="Paso 4">
+                
+                <div class="contenido">
+                    <h2>Paso 4</h2>
+                    <p>
+                        Aplicar una gota de compuesto térmico sobre el centro del cpu
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="5.png" alt="Paso 5">
+                
+                <div class="contenido">
+                    <h2>Paso 5</h2>
+                    <p>
+                        colocar el disipador de calor sobre el procesador, ajustar tornillos y concetar cable de alimentación al conector de placa base
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="6.png" alt="Paso 6">
+                
+                <div class="contenido">
+                    <h2>Paso 6</h2>
+                    <p>
+                        Insertar módulos RAM 1 y 2 en las ranuras correspondientes, presionar hacia abajo hasta que los pestillos queden firmes
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="7.png" alt="Paso 6">
+                
+                <div class="contenido">
+                    <h2>Paso 7</h2>
+                    <p>
+                        Introducir placa base dentro del gabinete, alinear los puertos traseros con la rejilla del chasis
+                    </p>
+                </div>
+            </div>
+             <div class="card">
+                <img src="8.png" alt="Paso 6">
+                
+                <div class="contenido">
+                    <h2>Paso 8</h2>
+                    <p>
+                        Fijar placa base de manera segura utilizando tornillos en los postes metálicos
+                    </p>
+                </div>
+            </div>
+             <div class="card">
+                <img src="9.png" alt="Paso 6">
+                
+                <div class="contenido">
+                    <h2>Paso 9</h2>
+                    <p>
+                        Insertar tarjeta red, tarjeta de red inalámbrica  en ranura y asegurarlas con tornillos, insertar tarjeta gráfica y atornillar, asi mismo  introducir disco duro, y asegurarlo colocando tornillos en laterales para fijación óptima
+                    </p>
+                </div>
+            </div>
+              <div class="card">
+                <img src="10.png" alt="Paso 6">
+                
+                <div class="contenido">
+                    <h2>Paso 10</h2>
+                    <p>
+                      Conectar los cables principales de la fuente de poder a la placa base, los cables Molex, SATA, de la fuente a los discos duros, disqueteras y unidades ópticas
+                    </p>
+                </div>
+            </div>
+               <div class="card">
+                <img src="11.png" alt="Paso 6">
+                
+                <div class="contenido">
+                    <h2>Paso 11</h2>
+                    <p>
+                      Colocar las tapas laterales metálicas para cerrar el ordenador, y asegurar con tornillos, así también conectar los cables de monitor, teclado, mouse y red ethernet, finalmente el cable de alimentación a la fuente de poder y tomacorriente   
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Ensamblaje CPU | Cisco</p>
+    </footer>
+
+</body>
+</html>
